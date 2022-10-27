@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './App.css';
 import axios from 'axios'
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <NavBar />
     </div>
   );
 }
