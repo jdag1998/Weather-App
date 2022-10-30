@@ -1,12 +1,12 @@
 import React,{useState} from "react"
 
-export default function Form(newLocation) {
+export default function Form({newLocation}) {
 const [city, setCity] = useState("")
 
 const onSubmit = (e) => {
     e.preventDefault();
     console.log({city})
-    if(city === "" || !city) 
+    if(city === "" || !city) return;
     
     newLocation(city)
 }
