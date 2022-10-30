@@ -1,11 +1,11 @@
 import React from "react";
-import './Spinner.css'
+import './Spinner'
 
 export default function Spinner() {
 
     return(
 
-        <div class="lds-default">
+        <div className="lds-default">
             <div></div>
             <div></div>
             <div></div>
