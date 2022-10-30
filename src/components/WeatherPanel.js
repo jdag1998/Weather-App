@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Form from './Form';
+import Card from './Card';
 
 
 export default function WeatherPanel() {
@@ -64,6 +65,13 @@ export default function WeatherPanel() {
         <Form 
             newLocation = {getLocation}
 
+        />
+        <Card 
+        showData = {show}
+        loadingData = {loading}
+        weather = {weather}
+        forecast = {forecast}
+        
         />
 
 
