@@ -4,10 +4,14 @@
 It is an app where you provide the name of the city and the app is goign to tell you a few weather characteristics about that specific city.
 
 ### Technologies Used 
-HTML 
+HTML
+
 CSS
+
 JavaScript
+
 JSX
+
 React
 
 ### App Requirements 
