@@ -1,7 +1,7 @@
 
 ## Weather App
 
-It is an app where you provide the name of the city and the app is goign to tell you a few weather characteristics about that specific city.
+It is an app where you provide the name of the city and the app is going to show you a few weather characteristics about that specific city.
 
 ### Technologies Used 
 HTML
@@ -28,7 +28,7 @@ Must be deployed (a good option is NetlifyLinks to an external site.)
 
 ### API
 
-The API used in this project id from openweathermap.org I use the url where you can just work with the city's name. This API is free. 
+The API used in this project id from openweathermap.org I use the url where you can just work with the city's name. This API is for free. 
 
 
 ### Challenges
