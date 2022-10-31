@@ -47,3 +47,11 @@ body{
   display: flex;
   flex-direction: column;
 }
+.routes{
+  color: greenyellow;
+
+}
+
+.btn {
+  color:greenyellow;
+}

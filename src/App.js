@@ -1,8 +1,12 @@
 import React, {useState} from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import axios from 'axios'
 import NavBar from './components/NavBar';
 import WeatherPanel from './components/WeatherPanel';
+import About from './pages/About';
+import Use from './pages/Use';
+
 
 
 function App() {
@@ -13,10 +17,15 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      <WeatherPanel />
+      <Routes>
+        <Route path = "home" element={<div><NavBar />, <WeatherPanel /></div>}/>
+        <Route path = "about" element={<div><About /></div>}/>
+        <Route path = "use" element={<div><Use /></div>}/>
+        </Routes>
+      
       
     </div>
+    
   );
 }
 
